@@ -1,4 +1,5 @@
 # L298_Motor
+```언어
 //C++ code
 //
 #define IN1 10
@@ -51,6 +52,7 @@ void motor_r(int speed)
     //analogWrite (ENR, -speed);
   }
 }
+```언어
 
 void loop()
 {
